@@ -2,10 +2,21 @@ body {
     font-family: Arial;
 }
 
+header {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+}
+
+footer {
+    text-align: right;
+}
+
 h1 {
     font-family: Verdana;
     font-size: 32pt;
-    text-align: center;
 }
 
 h1 em {
@@ -14,21 +25,21 @@ h1 em {
 
 p {
     font-size: 14pt !important;
-    text-align: justify;
 }
 
 p.greeting {
     font-size: 24pt;
 }
 
-.picture {
-    text-align: center;
-}
-
 .picture img {
     width: 67%;
 }
 
-address {
-    text-align: right;
+.advertising {
+    margin-left: 30pt;
+}
+
+.advertising div {
+    font-size: 12pt;
+    margin: 5pt 0 5pt 0;
 }
